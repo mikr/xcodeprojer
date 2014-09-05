@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C36A8D019A0D91D00F6C76D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C36A8CF19A0D91D00F6C76D /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C36A8CA19A0D91D00F6C76D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C36A8CC19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Iñtërnâtiônàl Xcödè Prøjæct"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C36A8CF19A0D91D00F6C76D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C36A8C919A0D91D00F6C76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C36A8C319A0D91D00F6C76D = {
+			isa = PBXGroup;
+			children = (
+				4C36A8CE19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */,
+				4C36A8CD19A0D91D00F6C76D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C36A8CD19A0D91D00F6C76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C36A8CC19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C36A8CE19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */ = {
+			isa = PBXGroup;
+			children = (
+				4C36A8CF19A0D91D00F6C76D /* main.c */,
+			);
+			path = "Iñtërnâtiônàl Xcödè Prøjæct";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C36A8CB19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C36A8D519A0D91D00F6C76D /* Build configuration list for PBXNativeTarget "Iñtërnâtiônàl Xcödè Prøjæct" */;
+			buildPhases = (
+				4C6D58B919A128F1004CF31A /* ShellScript */,
+				4C36A8C819A0D91D00F6C76D /* Sources */,
+				4C36A8C919A0D91D00F6C76D /* Frameworks */,
+				4C36A8CA19A0D91D00F6C76D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iñtërnâtiônàl Xcödè Prøjæct";
+			productName = "Iñtërnâtiônàl Xcödè Prøjæct";
+			productReference = 4C36A8CC19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C36A8C419A0D91D00F6C76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "🎫";
+			};
+			buildConfigurationList = 4C36A8C719A0D91D00F6C76D /* Build configuration list for PBXProject "IŋƫƐrnætiønæl X©ødǝ ¶®øjæƈt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C36A8C319A0D91D00F6C76D;
+			productRefGroup = 4C36A8CD19A0D91D00F6C76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C36A8CB19A0D91D00F6C76D /* Iñtërnâtiônàl Xcödè Prøjæct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C6D58B919A128F1004CF31A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Here is a run script buildphase\\nright after the \\\\target dependencies/\"\necho \"Iñtërnâtiônàlizætiøn ready?\"\necho \"& XML <ready> as well ?\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C36A8C819A0D91D00F6C76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C36A8D019A0D91D00F6C76D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C36A8D319A0D91D00F6C76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C36A8D419A0D91D00F6C76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C36A8D619A0D91D00F6C76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Iñtërnâtiônàl Xcödè Prøjæct";
+			};
+			name = Debug;
+		};
+		4C36A8D719A0D91D00F6C76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Iñtërnâtiônàl Xcödè Prøjæct";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C36A8C719A0D91D00F6C76D /* Build configuration list for PBXProject "IŋƫƐrnætiønæl X©ødǝ ¶®øjæƈt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C36A8D319A0D91D00F6C76D /* Debug */,
+				4C36A8D419A0D91D00F6C76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C36A8D519A0D91D00F6C76D /* Build configuration list for PBXNativeTarget "Iñtërnâtiônàl Xcödè Prøjæct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C36A8D619A0D91D00F6C76D /* Debug */,
+				4C36A8D719A0D91D00F6C76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C36A8C419A0D91D00F6C76D /* Project object */;
+}

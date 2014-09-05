@@ -1,0 +1,15 @@
+include xcodeprojer.py tox.ini README.rst MANIFEST.in LICENSE
+recursive-exclude .
+recursive-include tests *.py
+recursive-include tests *.pbxproj
+recursive-include tests *.json
+recursive-include tests *.xml
+recursive-exclude tests *.pyc
+recursive-exclude tests *.pyo
+recursive-exclude tests/output *
+recursive-exclude tests */*.xcworkspace/*
+recursive-include examples *.py
+recursive-include examples *.rb
+recursive-include examples *.txt
+
+global-exclude .DS_Store .idea *local-projects.txt
